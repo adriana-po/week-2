@@ -1,0 +1,182 @@
+.{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color-scheme: #f7f7f7;
+
+  
+}
+
+body,html{
+  font-family: 'Epilogue', sans-serif;
+}
+
+.top-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#f7f7f7;
+}
+
+.top-menu-left{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top-menu-left img{
+  width: 200px;
+}
+
+
+.top-menu-links{
+  display: flex;
+  gap: 2em;
+  font-size: 25px;
+}
+
+.top-menu-links a{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  gap: 1em;
+}
+
+.top-menu-right{
+  display: flex;
+  gap: 1em;
+  align-items:center;
+}
+
+.top-menu-right img{
+color: black;
+width: 30px;
+}
+
+
+.container{
+  max-width: 100rem;
+  margin-inline: auto;
+  padding-inline: 2rem;
+  background-color:rgb(227, 225, 225);
+  
+}
+
+.container h1{
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  font-size: 3rem;
+  
+}
+
+.stacked{
+  display:grid;
+}
+
+.stacked > *{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+
+.service-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: .90rem;
+
+}
+
+.card{
+  aspect-ratio: 1/1.8; 
+}
+
+.card_img{
+  width: 100%;
+  aspect-ratio: 1/1.25;
+  object-fit: cover;
+}
+
+.card_content{
+  background: white;
+  align-self: end;
+  margin: .5rem .5rem .5rem;
+  padding: .5rem;
+  box-shadow:  0  .25rem; 1rem rgb(0 0 0 /.1);
+  text-align:center;
+  
+}
+
+.card_title{
+  text-align: center;
+}
+
+.card a{
+  text-decoration: none;
+  gap: 1em;
+  font-size: 1.8rem;
+  color:rgb(1, 108, 1);
+  font-weight: bold;
+}
+
+.card_content p{
+  width: 350px;
+  font-size: 1rem;
+  line-height: 1.5;
+  align-self: auto;
+  text-align:center;
+}
+
+.price p{
+  font-size: 1.4rem;
+  color:green;
+  font-weight: bold;
+ 
+}
+
+.price button{
+  border: 1px solid green;
+  background-color:#4e944d;
+  width: 120px;
+  padding: 0.2em;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+
+.price a{
+  text-decoration: none;
+  color:whitesmoke;
+  font-size: 1rem;
+}
+
+
+.footer{
+  display: flex;
+  align-self: auto;
+  justify-content: space-between;
+  background-color:#636466
+}
+
+.footer p{
+  color:whitesmoke;
+}
+
+.footer a{
+  text-decoration: none;
+  color:whitesmoke;
+  font-size: .9rem;
+ 
+}
+
+.footer button{
+  border: 1px solid green;
+  background-color:#4e944d;
+  width: 200px;
+  padding: 0.8em;
+  border-radius: 15px;
+  cursor: pointer;
+  align-self: auto;
+  text-align:center;
+}
