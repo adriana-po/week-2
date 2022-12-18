@@ -1,0 +1,81 @@
+body{
+ background-color:lightgray;
+ display:flex; 
+}
+
+.container{
+ background:linear-gradient(45deg, green, yellow);
+ max-width:700px;
+ padding:30px; 20px;
+ border-radius:10px;
+ margin:auto;
+ margin-top:50px;
+
+}
+
+label{
+  width: 140px;
+  display: inline-block;
+  font-size:30px;
+  font-weight:bold;
+  color:white
+}
+
+input{
+  padding:7px;
+  margin:9px;
+  font-size:18px;
+  border-radius:10px;
+  border:1px solid #f9f9f9;
+  width:220px;
+} 
+
+input#email{
+  width:475px;
+}
+
+input#message{
+  width:475px;
+  height:100px;
+}
+
+select#priority{
+  padding:4px;
+  margin:10px;
+  font-size:18px;
+  border-radius:10px;
+  border:1px solid #f9f9f9;
+}
+
+input#submit{
+  margin-top:3px;
+  margin-left:155px; ;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  padding:4px;
+  background-color: green;
+}
+  
+  input#submit:hover{
+    background-color:rgb(92, 143, 16);
+    color: #f9f9f9;
+  }   
+
+  h2{
+    text-align: center;
+    font-size: 35px;
+    color:whitesmoke;
+    margin-bottom:1.5em;
+
+  }
+    
+
+ 
+
+
+  
+  
+
+
+

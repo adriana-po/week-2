@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <title>Holmedical Acupuncture Contact
+    </title>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <h2>Message Us or Call Us at (800) 000-0000</h2>
+
+     <form action="server.php" >
+       
+         <label>Name:</label>
+         <input type="text" name="firstname" placeholder="First" required>
+         <input type="text" name="lastname" placeholder="Last" required> <br>
+
+         <label>Email:</label>
+         <input type="email" name="email" id="email" required> <br>
+
+         <label>Message:</label>
+         <input type="text" name="message" id="message" required> <br><br>
+
+        
+         <label>Priority</label>
+         <select name="priority" id="priority" required>
+           <option value="low" selected>Low</option>
+           <option value="normal">Normal</option>
+           <option value="high">High</option>
+         </select> 
+
+         <input type="button" name="submit" value="submit" id="submit">
+     </form>
+    </div>
+  </body>
+</html>
